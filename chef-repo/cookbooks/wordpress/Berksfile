@@ -1,0 +1,11 @@
+source "https://supermarket.chef.io"
+
+metadata
+
+cookbook 'yum', '~> 3.6.3'
+cookbook 'mariadb', '~> 0.3.0'
+cookbook 'mysql2_chef_gem', '~> 1.0.2'
+cookbook 'database', '~> 4.0.7'
+cookbook 'nginx', '~> 2.7.6'
+cookbook 'php-fpm', '~> 0.7.4'
+cookbook 'tar', '~> 0.7.0'
